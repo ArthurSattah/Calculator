@@ -6,53 +6,53 @@ body{
 .calculator{
   background-color: rgb(35, 35, 66);
   width: 100%;
-  height: 700px;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 .board{
+  width: 300px;
   border: solid 2px;
-  width: 400px;
-  height: 620px;
   background-color: rgb(133, 29, 29);
   border-radius: 30px;
   align-items: center;
   flex-direction: column;
   display: flex;
+  margin-top: 40px;
+  margin-bottom: 130px;
+  text-align: center;
 }
 .screen{
   padding: 3px;
   font-size: 2em;
   text-align: end;
+  width: 90%;
   margin-top: 20px;
   background-color: rgb(115, 180, 180);
   border-radius: 20px;
   height: 50px;
-  width: 350px;
   border: 0;
   border: solid 1px;
   box-shadow: -5px -5px 15px rgb(255, 255, 255,0.2),5px 5px 15px rgb(0, 0, 0,0.2);
 }
 .tile{
+  margin-top: 15px;
   width: 100%;
   flex-direction: column;
   display: flex;
 }
 .tile div{
-  justify-content: space-evenly;
-  width: 100%;
-  flex-direction: row;
   display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 .digit{
-  margin: 20px;
+  margin-bottom: 15px;
   background-color: rgb(53, 179, 101);
   width: 50px;
   height: 50px;
   border-radius: 15px;
   box-shadow: -5px -5px 15px rgb(255, 255, 255,0.2),5px 5px 15px rgb(0, 0, 0,0.2);
-  border: 0;
   border: solid 0.5px;
   cursor: pointer;
   font-size: 1.2em;

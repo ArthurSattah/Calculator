@@ -36,7 +36,7 @@ function Calculator() {
     } else if (arr[index] === "=") {
       try {
         let newValue = eval(value);
-        if (newValue == "Infinity") {
+        if (newValue === "Infinity") {
           alert("You can't divide with zero");
           return;
         }

@@ -6,10 +6,10 @@ function Tile({ arr, handleClick }) {
     <div className="tile">
       {arr1.map((index1, key1) => {
         return (
-          <div>
+          <div key={key1}>
             {arr2.map((index2, key2) => {
               return (
-                <Digit
+                <Digit key={key2}
                   value={arr[index1 * 4 + index2]}
                   handleClick={() => handleClick(index1 * 4 + index2)}
                 />
